@@ -1,0 +1,144 @@
+body{
+    background-color:#ff0000;
+    scroll-behavior: smooth;
+    padding: 0px;
+    user-select:none;
+}
+/* div.shape{
+    height: 420px;
+    width:  420px;
+    border-radius:20px;
+    position: absolute;
+    box-shadow: -5px -1px -8px black;
+    background-color:rgb(0, 0, 0);
+    margin: 160px 520px  ;
+    overflow:hidden;
+   
+    animation:jasoncyber 40s linear infinite;
+}
+@keyframes jasoncyber {
+100%{
+    transform: rotate(260deg);
+}    
+      } */
+
+form.login{
+    text-align: center;
+    border: 0.4px solid #FFF;
+    background-color: rgba(29, 29, 29,0.1);
+    position: absolute;
+    margin: 125px 555px ;
+    width: 400px;
+    height: 510px;
+    border-radius: 10px;
+    box-shadow: -4px -4px -10px rgba(29, 29, 29,0.1);
+    backdrop-filter: blur(9px);
+    
+
+    
+    
+}
+img.img1{
+    border-radius:100px;
+    width: 130px;
+    height: 130px;
+    transition: 0.5s ease;
+    margin-top: 10px;
+    filter: invert(100%);
+}
+img:hover{
+    width: 140px;
+    height: 140px;
+    margin-top:10px ;
+ }
+
+h1.title1{
+    color: white;
+}
+h4.enter{
+    color:rgb(255, 255, 255);
+    margin:20px 0px 15px 0px;
+    letter-spacing: 2px; 
+}
+
+h3{
+    color: #FFF;
+    text-align: left;
+    padding-left: 10px ;
+    margin: -20px 0px;
+}
+input.user{
+    text-indent: 10px;
+    background-color: #2b2b2b;
+    color: rgb(255, 255, 255);
+    height:40px;
+    width: 360px;
+    border: 0px solid black;
+    margin: 30px 2px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+h3.pass{
+    text-align: left;
+}
+input.password{
+    text-indent: 10px;
+    background-color: #2b2b2b;
+    color: rgb(255, 255, 255);
+    height:40px;
+    width: 360px;
+    margin: 30px 2px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+input.user:hover,input.password:hover{
+    height: 50px;
+    width: 370px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+
+.ss{
+    width: 365px;
+    height: 40px;
+    border-radius:5px;
+    background-color:white;
+    border: 0px solid ;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    margin: -10px 0px ;
+      
+}
+.ss:active{
+    background-color:rgb(236, 236, 236);
+}
+a.link{
+
+    margin: 10px 0px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+a:active{
+    color: #000;
+   
+}
+
+::placeholder{
+    color:#e5e5e5;
+}
+.developer{
+        position: absolute;
+        margin: 680px 670px;
+        width: 200px;
+        font-size: 20px;
+        transition: 0.2s ease;    
+        cursor: pointer;   
+}
+.developer:hover{
+    color: #FFF;
+}
+
